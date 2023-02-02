@@ -1,0 +1,126 @@
+/*RESET*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    text-decoration: none;
+}
+
+/*ESTILOS DEL BODY*/
+
+/* .imagen-fondo{
+    background-repeat: no-repeat;
+    background-image: url("../img/ariana-background.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+} */
+
+.fondo{
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #8589a1;
+}
+
+/*ESTILOS DEL HEADER*/
+.logo{
+    margin: 30px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+header nav ul li{
+    margin: 35px;
+    padding: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Unbounded', cursive;
+    text-transform: capitalize;
+    gap: 60px;
+}
+
+.fondo-home{
+    position: absolute;
+    z-index: 999;
+}
+
+.nav-position{
+    position:absolute;
+    z-index: -999;
+}
+
+/*ESTILOS DE VIDEOS*/
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+
+
+/*ESTILOS DE SHOP*/
+
+.contenedor-merch{
+    
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+}
+
+.imagenes-merch{
+    width:50%;
+}
+
+/*ESTILOS FORMULARIO*/
+
+.form{
+    background-color: #fff;
+    max-width: 500em;
+    padding: 10em 9.5em;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px -5px (0 0 0/30%);
+    }
+
+.contenedor-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/*ESTILOS DEL FOOTER*/
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+    color:wheat;
+}
+ /*ESTILOS DEL INDEX*/
+
+ .tamaño-home{
+    display: flex;
+    height:800px;
+}
